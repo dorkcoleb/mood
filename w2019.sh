@@ -6,10 +6,8 @@ echo "Download windows files"
 wget -O w2019.gz https://mor1.androidfilehost.com/dl/S4OBC6tFyokcR5kIEPXcqA/1674727944/4279422670115708518/W2019-aank.gz?
 #https://go.aank.me/win/W2019-aank.gz
 gunzip w2019.gz
-echo "Wait..."
-echo "I m Working Now.."
 mv w2019 w2019.img
-wget -O ng.sh https://raw.githubusercontent.com/dorkcoleb/mood/main/ngrook.sh> /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/dorkcoleb/mood/main/ngrook.sh
 chmod +x ng.sh
 ./ng.sh
 clear
