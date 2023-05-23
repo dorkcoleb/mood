@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=etchash.unmineable.com:80
+POOL=etchash.unmineable.com:13333
 WALLET=DOGE:DFnzT5dETx7AnkXqdkHese6uae5Au4uU19
 WORKER=$(echo $(shuf -i 1-99 -n 1)-V100)
 
